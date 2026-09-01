@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mayank Purohit — Full-Stack Developer</title>
+<meta name="description" content="Mayank Purohit — Full-Stack Developer specializing in Laravel, PHP, REST APIs, and MySQL. 4+ years building marketplace backends.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="#top" class="wordmark">mayank<span class="dot">.</span>dev</a>
+    <nav class="endpoint-nav">
+      <a href="#about"><span class="method get">GET</span> /about</a>
+      <a href="#experience"><span class="method get">GET</span> /experience</a>
+      <a href="#projects"><span class="method get">GET</span> /projects</a>
+      <a href="#contact"><span class="method post">POST</span> /contact</a>
+    </nav>
+    <a class="resume-btn" href="mayank_purohit_resume.pdf" download>Download résumé</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="hero-kicker">Full-stack developer · Nathdwara, Rajasthan</p>
+        <h1>Mayank Purohit builds the backend<br>that marketplaces run on.</h1>
+        <p class="hero-lead">
+          Four years deep in Laravel and PHP, two of them owning every line of the
+          <a href="https://www.aapilok.in" target="_blank" rel="noopener">AAPI</a>
+          marketplace API — bookings, payments, payouts, and the parts users never see but always feel.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">See the work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="hero-panel" aria-hidden="true">
+        <div class="panel-chrome">
+          <div class="panel-dots"><span></span><span></span><span></span></div>
+          <span class="panel-title">GET /developer/mayank-purohit</span>
+        </div>
+        <pre class="panel-body"><code id="typed-json"></code><span class="cursor">&#9612;</span></pre>
+        <div class="panel-status">
+          <span class="status-code">200 OK</span>
+          <span class="status-time">18ms</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-inner about-grid">
+      <div class="section-head">
+        <span class="path-label"><span class="method get">GET</span> /about</span>
+        <h2>What I actually do</h2>
+      </div>
+      <div class="about-body">
+        <p>
+          I'm a full-stack developer with four-plus years of production experience, most of it spent
+          architecting REST APIs in Laravel for a live space-and-service marketplace. That means booking
+          and availability logic that can't double-book a room, payment flows through Razorpay and Stripe
+          that can't lose a transaction, and payout systems hosts actually trust.
+        </p>
+        <p>
+          Outside the API layer, I build and maintain WordPress and WooCommerce sites for clients across
+          healthcare, e-commerce, and the arts — usually the person who gets called when a site needs to
+          go from "looks fine" to "actually works." I use Claude, Gemini, and DeepSeek daily to move faster
+          through debugging and documentation, not to skip understanding what the code does.
+        </p>
+        <ul class="skill-rows">
+          <li><span class="skill-label">Backend</span><span class="skill-value">PHP · Laravel · REST APIs · MVC · MySQL · Database design</span></li>
+          <li><span class="skill-label">Frontend</span><span class="skill-value">HTML5 · CSS3 · JavaScript · jQuery · Bootstrap</span></li>
+          <li><span class="skill-label">CMS &amp; commerce</span><span class="skill-value">WordPress · WooCommerce · Elementor · Divi · Cornerstone</span></li>
+          <li><span class="skill-label">Payments &amp; APIs</span><span class="skill-value">Razorpay · Stripe · Firebase Cloud Messaging · WhatsApp Cloud API</span></li>
+          <li><span class="skill-label">Tools</span><span class="skill-value">Git · Postman · Figma · FileZilla</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section section-alt">
+    <div class="section-inner">
+      <div class="section-head">
+        <span class="path-label"><span class="method get">GET</span> /experience</span>
+        <h2>Where I've built this</h2>
+      </div>
+
+      <div class="job">
+        <div class="job-meta">
+          <h3>Full-Stack Developer</h3>
+          <p class="job-org">Aapilok Softech Pvt. Ltd. — Udaipur, Rajasthan</p>
+          <p class="job-dates">July 2022 — Present</p>
+        </div>
+        <ul class="job-list">
+          <li>Architected and built the Laravel REST API backend for AAPI, a marketplace for coworking spaces, event venues, studios, and service providers.</li>
+          <li>Designed booking, availability, pricing, order, subscription, and host payout workflows in Laravel and MySQL.</li>
+          <li>Integrated Razorpay and Stripe for payments, bookings, subscriptions, order verification, and payouts.</li>
+          <li>Built Firebase Cloud Messaging push notifications, in-app inbox/messaging, and a real-time booking calendar.</li>
+          <li>Shipped community, events, QR-based ticket verification, attendee management, and organizer payout features.</li>
+          <li>Built host analytics APIs surfacing revenue, occupancy, pricing, and booking trends.</li>
+          <li>Integrated Gemini AI for in-app chat support; use Claude, Gemini, and DeepSeek to speed up coding and docs.</li>
+          <li>Built and maintained client WordPress sites — theming, plugins, WooCommerce, on-page SEO.</li>
+          <li>Worked directly with a Flutter developer and marketing team to ship mobile-app APIs and support releases.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-inner">
+      <div class="section-head">
+        <span class="path-label"><span class="method get">GET</span> /projects</span>
+        <h2>Selected work</h2>
+      </div>
+
+      <div class="endpoint-list">
+
+        <article class="endpoint-card featured">
+          <div class="endpoint-row">
+            <span class="method get">GET</span>
+            <span class="endpoint-path">/projects/aapi</span>
+            <span class="status-code ok">200</span>
+          </div>
+          <h3>AAPI Marketplace</h3>
+          <p>Space and service booking platform for coworking spaces, event venues, studios, and dance
+            communities — live listings, bookings, payments, availability, notifications, analytics,
+            ticketing, and host payouts, backend built solo in Laravel.</p>
+          <p class="endpoint-stack">Laravel · PHP · MySQL · REST APIs · Razorpay · Stripe · FCM</p>
+          <div class="endpoint-links">
+            <a href="https://apps.apple.com/in/app/aapi-utilize-space-service/id6753668030" target="_blank" rel="noopener">App Store</a>
+            <a href="https://play.google.com/store/apps/details?id=com.aapi.app" target="_blank" rel="noopener">Play Store</a>
+            <a href="https://www.aapilok.in" target="_blank" rel="noopener">aapilok.in</a>
+          </div>
+        </article>
+
+        <article class="endpoint-card">
+          <div class="endpoint-row">
+            <span class="method get">GET</span>
+            <span class="endpoint-path">/projects/medical-wholesale</span>
+            <span class="status-code ok">200</span>
+          </div>
+          <h3>Medical Equipment Wholesale Platform</h3>
+          <p>B2B hospital equipment ordering platform with password-protected access, tiered user roles,
+            role-based pricing, and full WooCommerce checkout logic.</p>
+          <p class="endpoint-stack">WordPress · Divi · Cornerstone · WooCommerce</p>
+          <div class="endpoint-links">
+            <a href="https://ehob.com/" target="_blank" rel="noopener">ehob.com</a>
+            <a href="http://ars.rehab/" target="_blank" rel="noopener">ars.rehab</a>
+          </div>
+        </article>
+
+        <article class="endpoint-card">
+          <div class="endpoint-row">
+            <span class="method get">GET</span>
+            <span class="endpoint-path">/projects/client-sites</span>
+            <span class="status-code ok">200</span>
+          </div>
+          <h3>Client &amp; business websites</h3>
+          <p>Design, build, and upkeep for business, healthcare, arts, and advocacy clients — theme
+            customization, plugin integration, and on-page SEO across WordPress and Shopify.</p>
+          <p class="endpoint-stack">WordPress · Elementor · Shopify · HTML/CSS/JS</p>
+          <div class="endpoint-links">
+            <a href="https://marblewala.com/" target="_blank" rel="noopener">marblewala.com</a>
+            <a href="https://abilityadvocacy.com/" target="_blank" rel="noopener">abilityadvocacy.com</a>
+            <a href="https://bangalorelittletheatre.org/" target="_blank" rel="noopener">bangalorelittletheatre.org</a>
+            <a href="https://pacillo.com/" target="_blank" rel="noopener">pacillo.com</a>
+            <a href="https://australiancarersguide.com.au/" target="_blank" rel="noopener">australiancarersguide.com.au</a>
+            <a href="https://ikpeden.com/smart-fab/" target="_blank" rel="noopener">ikpeden.com/smart-fab</a>
+            <a href="https://theglasseslady.com.au/" target="_blank" rel="noopener">theglasseslady.com.au</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section section-alt">
+    <div class="section-inner education-grid">
+      <div class="section-head">
+        <span class="path-label"><span class="method get">GET</span> /education</span>
+        <h2>Background</h2>
+      </div>
+      <div class="education-body">
+        <h3>B.Tech, Computer Science</h3>
+        <p class="job-org">Rajasthan Technical University, Kota</p>
+        <p class="job-dates">July 2018 — July 2022 · 87.59%</p>
+        <p class="cert-list">Design and Analysis of Algorithms (NPTEL) · Virtual Labs Workshop (IIT Roorkee) · Digital Marketing Certification (Google &amp; Facebook)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="section-inner contact-inner">
+      <span class="path-label"><span class="method post">POST</span> /contact</span>
+      <h2>Building something that needs a Laravel backend?</h2>
+      <p class="contact-lead">Open to Full-Stack, Laravel, Backend, and PHP Developer roles.</p>
+      <div class="contact-links">
+        <a href="mailto:mayankpurohit545@gmail.com" class="btn btn-primary">mayankpurohit545@gmail.com</a>
+        <a href="https://www.linkedin.com/in/mayankpurohit14/" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="section-inner footer-inner">
+    <span>© <span id="year"></span> Mayank Purohit</span>
+    <span class="footer-status"><span class="pulse-dot"></span> Open to opportunities</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
